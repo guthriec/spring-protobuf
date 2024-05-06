@@ -4,8 +4,8 @@
 	ignore = dirty
 [submodule "third_party/abseil-cpp"]
 	path = third_party/abseil-cpp
-	url = https://github.com/abseil/abseil-cpp.git
-	branch = lts_2023_01_25
+	url = https://github.com/guthriec/spring-abseil.git
+	branch = spring
 [submodule "third_party/jsoncpp"]
 	path = third_party/jsoncpp
 	url = https://github.com/open-source-parsers/jsoncpp.git

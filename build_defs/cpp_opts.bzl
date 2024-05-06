@@ -22,6 +22,7 @@ COPTS = select({
         "-Wno-sign-compare",
         "-Wno-nonnull",
         "-Werror",
+        "-pthread",
     ],
 })
 
@@ -37,6 +38,7 @@ LINK_OPTS = select({
         "-ignore:4221",
     ],
     "//conditions:default": [
+        "-pthread",
         "-lpthread",
         "-lm",
     ],
